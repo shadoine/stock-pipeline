@@ -43,6 +43,6 @@ Run it manually to test.
 - You might have to install pgAdmin 4 and connect to the local server.
 
 ## 📈 plot_sample_stock.py for example
-- Example script to demonstrate what you will expect from the plot_stock.py when the database has multiple data entries
+- Example script to demonstrate what you can expect from the plot_stock.py when the database has multiple data entries
 ![image](https://github.com/user-attachments/assets/9a86c114-771f-4814-a590-702e2da14fcf)
 
