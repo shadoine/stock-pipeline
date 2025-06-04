@@ -39,7 +39,7 @@ Run it manually to test.
 ## ✅ EXTRA
 
 ## ✅ plot_stock.py for visualization
-- can visualize the shown data
+- Can visualize the shown data
 - You might have to install pgAdmin 4 and connect to the local server.
 
 ## ✅ plot_sample_stock.py for example
