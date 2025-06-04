@@ -36,7 +36,7 @@ Run it manually to test.
 - Inserts it into PostgreSQL
 - Runs automatically via Airflow
 
-### ✅ EXTRA
+## ✅ Plots
 
 ## 📈 plot_stock.py for visualization
 - Can visualize the shown data
