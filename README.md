@@ -1,6 +1,6 @@
 # 📈 Stock Data Pipeline
 
-This project automates the fetching and storing of daily stock prices using Apache Airflow, Python, and PostgreSQL — all in Docker.
+This project automates the fetching and storing of daily stock prices using Apache Airflow, Python, and PostgreSQL —> all in Docker.
 
 ## 🧰 Tech Stack
 - Apache Airflow
