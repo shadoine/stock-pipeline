@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Connect to your Postgres database
 conn = psycopg2.connect(
     host="localhost",
-    port=5432,  # add port if needed
+    port=5432,
     dbname="stockdb",
     user="airflow",
     password="airflow"
