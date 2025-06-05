@@ -40,7 +40,7 @@ Run it manually to test.
 
 ## 📈 plot_stock.py for visualization
 - Can visualize the shown data
-- You might have to install pgAdmin 4 and connect to the local server.
+- You might have to install pgAdmin 4 and connect to the database.
 
 ## 📈 plot_sample_stock.py for example
 - Example script to demonstrate what you can expect from the plot_stock.py when the database has multiple data entries
