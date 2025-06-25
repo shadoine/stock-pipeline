@@ -43,4 +43,4 @@ Run it manually to test.
 - Can visualize the shown data
 
 Example from the 25/06/2025
-
+![image](https://github.com/user-attachments/assets/5a23ce28-ac96-468a-8448-63bb2c1a348f)
