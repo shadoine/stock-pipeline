@@ -1,6 +1,6 @@
 # 📈 Stock Data Pipeline
 
-This project automates the fetching and storing of daily stock prices using Apache Airflow, Python, and PostgreSQL in Docker. It also includes ARIMA-based forecasting with data visualization using Matplotlib. 
+This project automates the fetching and storing of daily stock prices using Apache Airflow, Python, and PostgreSQL all inside Docker. It also includes ARIMA-based forecasting with data visualization using Matplotlib. 
 
 ## 🧰 Tech Stack
 - Apache Airflow
