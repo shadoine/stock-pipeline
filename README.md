@@ -41,3 +41,6 @@ Run it manually to test.
 ## 📈 plot_stock.py for visualization
 - bash python plot_stock.py
 - Can visualize the shown data
+
+Example from the 25/06/2025
+
