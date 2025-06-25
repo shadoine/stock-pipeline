@@ -31,16 +31,16 @@ Run it manually to test.
 
 ## ✅ What it does
 
-- Pulls daily stock data for AAPL from Yahoo Finance
-- Cleans it using pandas
-- Inserts it into PostgreSQL
-- Runs automatically via Airflow
+- Data Extraction: The DAG in Airflow triggers a Python function that fetches the last 30 days of AAPL stock data using the yfinance API.
 
-## ✅ Plots
+- Data Wrangling: The data is cleaned and parsed into appropriate types (date, float, integer).
 
-## 📈 plot_stock.py for visualization
-- bash python plot_stock.py
-- Can visualize the shown data
+- Database Storage: Cleaned records are inserted into a PostgreSQL table named stock_prices. Duplicate dates are skipped via a conflict check.
+
+- Forecasting & Visualization: A separate script reads the data from PostgreSQL, fits an ARIMA model, and visualizes both historical and predicted prices.
+
+## 📈 How to run plot_stock.py for visualization
+- bash: python plot_stock.py
 
 Example from the 25/06/2025
 ![image](https://github.com/user-attachments/assets/5a23ce28-ac96-468a-8448-63bb2c1a348f)
