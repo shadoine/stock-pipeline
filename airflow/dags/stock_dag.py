@@ -15,7 +15,7 @@ default_args = {
 def fetch_and_store(**kwargs):
     # Download stock data for a given ticker (Apple in here, but this can be replaced by any ticker symbol)
     ticker = "AAPL"
-    data = yf.download(ticker, period="1d")
+    data = yf.download(ticker, period="30d")
 
     # Connect to your PostgreSQL database
     conn = psycopg2.connect(
