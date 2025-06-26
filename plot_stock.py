@@ -22,8 +22,8 @@ conn.close()
 df['date'] = pd.to_datetime(df['date'])
 df.set_index('date', inplace=True)
 
-# Fit ARIMA model (simple one-step: you can tune (p,d,q))
-model = ARIMA(df['close'], order=(5, 1, 0))  # ARIMA(p,d,q) — change as needed
+# Fit ARIMA model
+model = ARIMA(df['close'], order=(5, 1, 0))  # ARIMA(p,d,q)
 model_fit = model.fit()
 
 # Forecast next 5 days
