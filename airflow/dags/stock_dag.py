@@ -13,7 +13,7 @@ default_args = {
 }
 
 def fetch_and_store(**kwargs):
-    # Download stock data for a given ticker (Apple in here, but this can be replaced by any ticker symbol)
+    # Download stock data for a given ticker
     ticker = "AAPL"
     data = yf.download(ticker, period="30d")
 
